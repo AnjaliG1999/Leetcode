@@ -3,7 +3,7 @@ function findMaxConsecutiveOnes(nums: number[]): number {
     let tempMax = 0;
 
     nums.forEach((num) => {
-        if (num) {
+        if (num) {learn
             tempMax += 1
             if(tempMax > output) output = tempMax
         } else tempMax = 0
